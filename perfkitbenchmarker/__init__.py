@@ -26,6 +26,10 @@ UNIT_REGISTRY = pint.UnitRegistry()
 # very surprised to find out that 'KB' is not a valid unit.
 UNIT_REGISTRY.define('K- = 1000')
 
+# Storing percentages like other quantities simplifies metric
+# processing.
+UNIT_REGISTRY.define('percent = []')
+
 
 # The Pint documentation suggests serializing Quantities as tuples. We
 # supply serializers to make sure that Quantities are unpickled with
