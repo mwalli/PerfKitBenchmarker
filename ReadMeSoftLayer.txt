@@ -37,3 +37,5 @@ Disk IO benchmark
 
 Windows
 >python pkb.py --cloud=SoftLayer --default_timeout=2400 --benchmarks=ntttcp --os_type=windows --zones=tor01 --machine_type="{\"cpus\": 4, \"memory\": 4096, \"nic\": 1000}"
+
+test
